@@ -79,3 +79,5 @@ def dashboard():
     except Exception as e:
         st.error("❌ Dashboard crashed")
         st.exception(e)
+if __name__ == "__main__":
+    dashboard()
